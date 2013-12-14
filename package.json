@@ -1,7 +1,7 @@
 {
-  "name": "SPDY Reverse Proxy",
+  "name": "spdy-reverse-proxy",
   "description": "A Connect based SPDY reverse proxy for your server",
-  "version": "1.00",
+  "version": "1.0.0",
   "keywords": [
     "spdy",
     "proxy",
