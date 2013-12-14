@@ -1,0 +1,37 @@
+{
+  "name": "SPDY Reverse Proxy",
+  "description": "A Connect based SPDY reverse proxy for your server",
+  "version": "1.00",
+  "keywords": [
+    "spdy",
+    "proxy",
+    "reverse proxy"
+  ],
+  "maintainers": [
+    {
+      "name": "Patrizio Tufarolo",
+      "email": "patrizio@tufarolo.eu",
+      "web": "http://www.patrizio.tufarolo.eu"
+    }
+  ],
+  "dependencies": {
+    "spdy": ">=1.17.10",
+    "connect": ">=2.12.0"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git://github.com/patriziotufarolo/node-spdy-reverse-proxy.git"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "GNU GENERAL PUBLIC LICENSE Version 3",
+      "url": "https://github.com/patriziotufarolo/node-spdy-reverse-proxy/blob/master/LICENSE"
+    }
+  ],
+  "homepage": "https://www.patrizio.tufarolo.eu",
+  "bin": {"node-spdy-reverse-proxy" : "daemon.js"},
+  "engines": {"node": ">=0.10.23 <0.11.0"},
+  "main": "daemon.js"
+}

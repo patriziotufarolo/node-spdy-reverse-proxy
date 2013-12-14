@@ -1,0 +1,19 @@
+{
+	"hostnames"		: [
+					"myhostname.com",
+					"www.myhostname.com"
+				],
+	"http"			:	true,
+	"spdy"			:	true,
+	"force_https"	:	true,
+	"certificate"	:  {
+			"key"		:	"/path/to/private/key",
+			"cert"		:	"/path/to/server/certificate",
+			"ca"		:	"/path/to/certificate/authority"
+		},
+
+	"app"			:	{
+			"address"	: "127.0.0.1",
+			"port"		: "8080"
+		}
+}

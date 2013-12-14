@@ -1,0 +1,10 @@
+{
+	"http"			:	true,
+	"spdy"			:	true,
+	"force_https"	:	true,
+	"certificate"	:  {
+			"key"		:	"/path/to/default/key.key",
+			"cert"		:	"/path/to/default/cert.crt",
+			"ca"		:	"/path/to/default/ca.crt"
+	}
+}

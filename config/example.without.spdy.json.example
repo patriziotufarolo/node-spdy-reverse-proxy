@@ -1,0 +1,15 @@
+{
+	"hostnames"		: [
+					"myhostname.com",
+					"www.myhostname.com",
+					"*.myhostname.com"
+				],
+	"http"			:	true,
+	"spdy"			:	false,
+	"force_https"	:	false,
+
+	"app"			:	{
+			"address"	: "127.0.0.1",
+			"port"		: "8081"
+	}
+}
